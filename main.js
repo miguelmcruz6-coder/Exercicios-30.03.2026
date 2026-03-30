@@ -56,7 +56,7 @@ console.log();
 let valores = [8, 9, 10, 7, 5];
 
 console.log(`Maior número: ${maiorMenor(valores).maior}`);
-console.log(`Menor número: ${maiorMenor(valores).menor}`)
+console.log(`Menor número: ${maiorMenor(valores).menor}`);
 
 console.log();
 // 3) Faça um programa que receba a quantidade de números e seus respectivos valores.
@@ -75,7 +75,6 @@ console.log();
 
 let numeros = [8, 9, 3, 2, 7, 6, 12, 10, 5, 1];
 
-console.log("Números pares da lista: ");
-pares(numeros);
+console.log(`Números pares da lista: ${pares(numeros).join(", ")}`);
 
 console.log();
