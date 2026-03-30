@@ -44,18 +44,20 @@ function maiorMenor(lista) {
       menor = lista[i];
     }
   }
-  return {maior, menor}
+  return { maior, menor };
 }
 
 ///////////////////////////////////////////////////////////////////
 // Exercício 3
 
 function pares(lista) {
+  let numerosPares = [];
   for (let numero of lista) {
     if (numero % 2 == 0) {
-      console.log(numero);
+      numerosPares.push(numero);
     }
   }
+  return numerosPares;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
