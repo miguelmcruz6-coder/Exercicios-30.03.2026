@@ -1,18 +1,15 @@
-
 // const { calcularMedia, classificar } = require("./funcoes-auxiliares")
-import {calcularMedia, classificar} from "./funcoes-auxiliares.js"
+import { calcularMedia, classificar } from "./funcoes-auxiliares.js";
 // npm init -y
 // adicionar ("type": "module",) abaixo do "main"
 
+console.log(classificar(10));
 
-console.log(classificar(10))
-
-
-console.log()
-console.log()
+console.log();
+console.log();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import {tabuada, maiorMenor, pares} from "./funcoes-auxiliares.js"
+import { tabuada, maiorMenor, pares } from "./funcoes-auxiliares.js";
 
 // 1) Faça um programa que receba um número e escreva a sua respectiva tabuada.
 //     Exemplo:
@@ -31,17 +28,16 @@ import {tabuada, maiorMenor, pares} from "./funcoes-auxiliares.js"
 //             2x9 = 18
 //             2x10 = 20
 
-let numero = 7
-let tabuadaSelecionada = []
+let numero = 7;
+let tabuadaSelecionada = [];
 
-if(isNaN(numero)){
-    console.log("Eu esterava mais")
-} else{
-    tabuada(tabuadaSelecionada, numero)
+if (isNaN(numero)) {
+  console.log("Eu esterava mais");
+} else {
+  tabuada(tabuadaSelecionada, numero);
 }
 
-
-console.log()
+console.log();
 // 2) Faça um programa que receba a quantidade de números e seus respectivos valores.
 // Imprima o maior e o menor número deste conjunto.
 
@@ -57,12 +53,12 @@ console.log()
 //         Maior número: 200
 //         Menor número: 90
 
-let valores = [8, 9, 10, 7, 5]
+let valores = [8, 9, 10, 7, 5];
 
-maiorMenor(valores)
+console.log(`Maior número: ${maiorMenor(valores).maior}`);
+console.log(`Menor número: ${maiorMenor(valores).menor}`)
 
-
-console.log()
+console.log();
 // 3) Faça um programa que receba a quantidade de números e seus respectivos valores.
 // Imprima todos os números pares.
 // Exemplo:
@@ -77,10 +73,9 @@ console.log()
 //     Saída:
 //         Números Pares: 10, 12
 
-let numeros = [8, 9, 3, 2, 7, 6, 12, 10, 5, 1]
+let numeros = [8, 9, 3, 2, 7, 6, 12, 10, 5, 1];
 
-console.log("Números pares da lista: ")
-pares(numeros)
+console.log("Números pares da lista: ");
+pares(numeros);
 
-
-console.log()
+console.log();
